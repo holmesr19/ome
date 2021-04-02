@@ -1,5 +1,7 @@
 # WebOme
 
+Online Meet Entry FE throwie for coaches, parents/athletes, and meet official to use to register & execute swim meets 
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.17.
 
 ## Development server
