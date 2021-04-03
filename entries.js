@@ -9,7 +9,7 @@ new athlete\
     <button type='button' class='btn btn-secondary' onclick='addEntry('add-entries-${athlete-id}')'>Add another entry</button>\
 </div>";
 
-var athlete-id = 0;
+let athlete-id = 0;
 
 
 function addEntry(athleteEntries) {
