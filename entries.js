@@ -5,13 +5,15 @@ entry form\
 
 const athlete = "<div class='athlete-entries'>\
 new athlete\
-<div id = 'add-entries'></div>\
-    <button type='button' class='btn btn-secondary' onclick='addEntry()'>Add another entry</button>\
+<div id = 'add-entries-${athlete-id}'></div>\
+    <button type='button' class='btn btn-secondary' onclick='addEntry('add-entries-${athlete-id}')'>Add another entry</button>\
 </div>";
 
+var athlete-id = 0;
 
-function addEntry() {
-    document.getElementById('add-entries').innerHTML+=entryForm;
+
+function addEntry(athleteEntries) {
+    document.getElementById(athleteEntries).innerHTML+=entryForm;
 }
 
 function addAthlete() {
