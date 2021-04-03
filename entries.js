@@ -2,6 +2,7 @@ const entryForm = "<div class='entry-form'>\
 entry form\
 </div>";
 
+let athleteId = 0;
 
 const athlete = `<div class='athlete-entries'>\
 new athlete\
@@ -9,7 +10,7 @@ new athlete\
     <button type='button' class='btn btn-secondary' onclick='addEntry('add-entries-${athlete-id}')'>Add another entry</button>\
 </div>`;
 
-let athleteId = 0;
+
 
 
 function addEntry(athleteEntries) {
