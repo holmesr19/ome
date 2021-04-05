@@ -19,6 +19,7 @@ function addEntry(athleteEntries) {
 
 function addAthlete() {
     document.getElementById('add-athlete').innerHTML+=athlete;
+    athleteId += 1;
 }
 
 function submit() {
